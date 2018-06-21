@@ -7,7 +7,8 @@ import fieldReducer  from './fieldReducer'
 import Field from './field';
 
 const reducers = combineReducers({
-    field: fieldReducer    
+    field: fieldReducer
+    //field: () => ({ value: 'opa'})
 })
 
 ReactDOM.render(
